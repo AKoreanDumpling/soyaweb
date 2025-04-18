@@ -1,1 +1,1 @@
-## The Hose Project's website
+## The HOSE Project's website
