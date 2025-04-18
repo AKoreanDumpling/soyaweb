@@ -26,8 +26,6 @@ export default function RootLayout({
           text-sm
           font-regular tracking-wide antialiased`}
       >
-        <SpeedInsights />
-        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
@@ -36,6 +34,8 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
