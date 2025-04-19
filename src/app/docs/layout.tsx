@@ -56,15 +56,13 @@ export default function DocsLayout({
                   className={'h-auto w-aut dark:invert'}
                   width={100}
                   height={100}
-                  src={`/logos/pinedocs.png`}
+                  src={`/logos/hose.svg`}
                 />
               }
             />
 
             <Link href={'/'} className="flex flex-1 gap-3">
-              <SidebarHeaderTitle>
-                PINE<span className="text-4xl">X</span>IO
-              </SidebarHeaderTitle>
+              <SidebarHeaderTitle>hOSe</SidebarHeaderTitle>
             </Link>
           </SidebarHeader>
           <SidebarContent>
@@ -91,18 +89,19 @@ export default function DocsLayout({
               avatar={
                 <Image
                   alt="logo"
-                  src={'https://avatars.githubusercontent.com/u/24631970?v=4'}
+                  src={'https://avatars.githubusercontent.com/u/187478035'}
                   width={100}
                   height={100}
+                  className="w-full aspect-square object-cover"
                 />
               }
             />
             <div className="flex flex-col">
               <span className="text-sm font-medium text-gray-900 dark:text-white">
-                Sanjay Rajeev
+                Nathan Mah
               </span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
-                sanjayc208@gmail.com
+                @AKoreanDumpling
               </span>
             </div>
           </SidebarFooter>

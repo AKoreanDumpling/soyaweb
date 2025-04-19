@@ -52,10 +52,10 @@ export default function Home() {
                 className="h-auto w-auto dark:invert"
                 width={100}
                 height={100}
-                src={`/logos/pinedocs.png`}
+                src={`/logos/hose256.png`}
               />
               <h1 className="text-5xl content-center md:text-7xl font-stretch-110% -tracking-tighter text-gray-900 dark:text-white">
-                PINE<span className="md:text-8xl">X</span>IO
+                hOSe
               </h1>
             </motion.div>
             <motion.p
@@ -83,14 +83,14 @@ export default function Home() {
               onClick={() => router.push('/docs/getting-started/introduction')}
               size={'md'}
             >
-              Get Started
+              Learn More
             </Button>
             <Button
               className="px-6 py-3 gap-2"
               variant={'outline'}
               size={'md'}
               onClick={() =>
-                router.push('https://github.com/sanjayc208/pinexio')
+                router.push('https://github.com/akoreandumpling/hose')
               }
             >
               <Github size={20} />
