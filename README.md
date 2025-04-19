@@ -1,1 +1,1 @@
-## The HOSE Project's website
+## The hOSe Project's website
