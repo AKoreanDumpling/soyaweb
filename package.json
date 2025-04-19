@@ -5,8 +5,8 @@
   "author": "Nathan Mah",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "next lint",
     "build:content": "contentlayer2 build",
