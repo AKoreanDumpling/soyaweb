@@ -1,24 +1,15 @@
 export const meta = {
   metadataBase: new URL('https://pinexio.vercel.app'),
-  title: 'Pinexio - Documentation template',
-  description:
-    'A customizable Open Source documentation template built with Next.js',
-  authors: [{ name: 'Sanjay Rajeev' }],
-  keywords: [
-    'Pinexio',
-    'documentation template',
-    'template',
-    'Next.js',
-    'React',
-    'JavaScript',
-  ],
-  publisher: 'Sanjay Rajeev',
-  creator: 'Sanjay Rajeev',
+  title: 'The hOSe Project',
+  description: 'Humane Operating System for the Elderly',
+  authors: [{ name: 'Nathan Mah' }],
+  keywords: ['hOSe'],
+  publisher: 'Nathan Mah',
+  creator: 'Nathan Mah',
   openGraph: {
     type: 'website',
-    title: 'Pinexio - Documentation Template',
-    description:
-      'A customizable open-source documentation template built with Next.js.',
+    title: 'hOSe',
+    description: 'The hOSe Project',
     images: [
       {
         url: '/og_image.png',

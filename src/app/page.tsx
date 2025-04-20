@@ -55,7 +55,7 @@ export default function Home() {
                 src={`/logos/hose256.png`}
               />
               <h1 className="text-5xl content-center md:text-7xl font-stretch-110% -tracking-tighter text-gray-900 dark:text-white">
-                hOSe
+                The hOSe Project
               </h1>
             </motion.div>
             <motion.p
@@ -64,9 +64,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-shadow-lg mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
             >
-              A customizable open-source documentation template built with
-              Next.js 15, Tailwind CSS 4, and Contentlayer for beautiful, fast,
-              and flexible documentation.
+              Humane Operating System for the Elderly
             </motion.p>
           </div>
 
@@ -98,25 +96,40 @@ export default function Home() {
             </Button>
           </motion.div>
         </motion.div>
-        <div className="mt-16 mb-6 flex flex-wrap justify-center items-center gap-8 md:gap-12">
+        <h1 className="content-center md:text-3xl font-stretch-110% -tracking-tighter text-gray-900 dark:text-white mt-18">
+          Built with:
+        </h1>
+        <div className="mt-8 mb-6 flex flex-wrap justify-center items-center gap-8 md:gap-12">
           {[
             {
-              src: '/logos/next15.png',
-              label: 'Next.js 15',
+              src: '/logos/tux.svg',
+              label: 'Linux Kernel',
+              //   className: 'dark:invert',
+            },
+            {
+              src: '/logos/lf.svg',
+              label: 'Linux Foundation',
+              //   className: 'dark:invert',
+            },
+            {
+              src: '/logos/ubuntu.svg',
+              label: 'Ubuntu',
+              //   className: 'dark:invert',
+            },
+            {
+              src: '/logos/tailwindcss-light.png',
+              label: 'blank',
               className: 'dark:invert',
             },
             {
               src: '/logos/ts.png',
               label: 'Typescript',
-              className: 'dark:invert',
             },
-            {
-              src: '/logos/tailwindcss-light.png',
-              label: 'Tailwind CSS 4',
-              className: 'dark:invert',
-            },
-            { src: '/logos/contentlayer.png', label: 'Contentlayer' },
-            { src: '/logos/mdx.png', label: 'MDX' },
+            // {
+            //   src: '/logos/tailwindcss-light.png',
+            //   label: 'blank',
+            //   className: 'dark:invert',
+            // },
           ].map(({ src, label, className }) => (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
@@ -134,7 +147,7 @@ export default function Home() {
                   className={className}
                 />
               </div>
-              <span className="mt-2 text-sm">{label}</span>
+              <span className="mt-4 text-sm">{label}</span>
             </motion.div>
           ))}
         </div>
