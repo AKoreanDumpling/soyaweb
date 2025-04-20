@@ -22,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {' '}
+        <meta
+          name="google-site-verification"
+          content="zeS-k-BkwcPh8gEE_589FN8va84BJonUTZNjRE67T2U"
+        />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-WKB0BSSBY0"
