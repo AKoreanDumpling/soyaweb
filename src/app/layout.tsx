@@ -21,10 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-WKB0BSSBY0"
-      ></Script>
+      <head>
+        {' '}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WKB0BSSBY0"
+        ></Script>
+      </head>
+
       <body
         className={`
           ${geistSans.className}
