@@ -107,18 +107,18 @@ export default function Home() {
               //   className: 'dark:invert',
             },
             {
-              src: '/logos/lf.svg',
-              label: 'Linux Foundation',
-              //   className: 'dark:invert',
-            },
-            {
               src: '/logos/ubuntu.svg',
               label: 'Ubuntu',
               //   className: 'dark:invert',
             },
             {
-              src: '/logos/tailwindcss-light.png',
-              label: 'blank',
+              src: '/logos/flutter.svg',
+              label: 'Flutter',
+              //   className: 'dark:invert',
+            },
+            {
+              src: '/logos/pinedocs.png',
+              label: 'Pinexio',
               className: 'dark:invert',
             },
             {

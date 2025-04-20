@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { meta } from '../../config/meta';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -20,6 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-WKB0BSSBY0"
+      ></Script>
       <body
         className={`
           ${geistSans.className}

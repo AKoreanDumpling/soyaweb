@@ -12,7 +12,7 @@ export const meta = {
     description: 'The hOSe Project',
     images: [
       {
-        url: '/og_image.png',
+        url: '/logos/hose.svg',
         width: 1200,
         height: 630,
         alt: 'Pinexio Documentation Template',
@@ -29,12 +29,12 @@ export const meta = {
   },
   // SEO Enhancements
   alternates: {
-    canonical: 'https://pinexio.vercel.app', // Set the canonical URL
+    canonical: 'https://hoseproject.vercel.app', // Set the canonical URL
   },
   robots: 'index, follow', // Allows search engines to index and follow links
   // Optional: Hreflang for multilingual content (if applicable)
   hreflang: {
-    en: 'https://pinexio.vercel.app', // English version URL
+    en: 'https://hoseproject.vercel.app', // English version URL
     // Add more hreflang if you have other languages (example: Spanish)
     // "es": "https://pinexio.vercel.app/es",
   },
