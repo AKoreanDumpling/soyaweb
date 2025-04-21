@@ -1,5 +1,5 @@
 export const meta = {
-  metadataBase: new URL('https://pinexio.vercel.app'),
+  metadataBase: new URL('https://hoseproject.vercel.app'),
   title: 'The hOSe Project',
   description: 'Humane Operating System for the Elderly',
   authors: [{ name: 'Nathan Mah' }],
@@ -12,10 +12,10 @@ export const meta = {
     description: 'The hOSe Project',
     images: [
       {
-        url: '/logos/hose.svg',
+        url: 'https://hoseproject.vercel.app/logos/hose.svg',
         width: 1200,
-        height: 630,
-        alt: 'Pinexio Documentation Template',
+        height: 1200,
+        alt: 'The hOSe Logo',
       },
     ],
   },
