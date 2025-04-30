@@ -157,27 +157,9 @@ export default function Home() {
       <footer className="sticky bottom-0 z-10 bg-white/90 dark:bg-gray-950/90 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-4 py-3 text-center text-gray-600 dark:text-gray-400">
           <div className="flex justify-end items-center space-x-4">
-            <Button
-              className="px-4 py-2 text-sm font-medium gap-2"
-              onClick={() =>
-                window.open(
-                  'https://vercel.com/new/clone?repository-url=https://github.com/sanjayc208/pinexio',
-                  '_blank'
-                )
-              }
-            >
-              <Image
-                src={'/logos/vercel.png'}
-                height={'20'}
-                width={'20'}
-                alt={'Deploy Vercel'}
-                className={'dark:invert'}
-              />
-              <span>Deploy to Vercel</span>
-            </Button>
             <div className="flex text-sm text-right gap-3">
               <p>
-                Built with ❤️ by <strong>Sanjay Rajeev</strong>
+                Built with ❤️ by <strong>Nathan Mah</strong>
               </p>
             </div>
           </div>
