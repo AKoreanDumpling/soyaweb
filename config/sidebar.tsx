@@ -98,18 +98,4 @@ export const sidebarNav = [
       },
     ],
   },
-  {
-    title: 'Theme',
-    icon: <Paintbrush className="h-5 w-5" />,
-    defaultOpen: true,
-    href: '/docs/theme',
-    pages: [],
-  },
-  {
-    title: 'Search Bar',
-    icon: <Search className="h-5 w-5" />,
-    defaultOpen: true,
-    href: '/docs/search-bar',
-    pages: [],
-  },
 ];

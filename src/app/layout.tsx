@@ -26,18 +26,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="zeS-k-BkwcPh8gEE_589FN8va84BJonUTZNjRE67T2U"
         />
-        <meta name="google-adsense-account" content="ca-pub-6653194747464530" />
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-WKB0BSSBY0"
-        ></Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6653194747464530"
-          crossOrigin="anonymous"
-        ></Script>
       </head>
-
       <body
         className={`
           ${geistSans.className}

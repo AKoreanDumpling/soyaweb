@@ -21,9 +21,8 @@ export const meta = {
   },
   twitter: {
     card: 'summary_large_image', // Type of Twitter card
-    title: 'Pinexio - Documentation Template', // Twitter card title
-    description:
-      'A customizable open-source documentation template built with Next.js.', // Twitter card description
+    title: 'The hOSe Project', // Twitter card title
+    description: 'Humane Operating System for the Elderly', // Twitter card description
     images: ['/og_image.png'], // Image used in the Twitter card
     creator: '@sanjayrajeev', // Twitter handle of the content creator (optional)
   },

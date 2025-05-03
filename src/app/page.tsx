@@ -14,9 +14,8 @@ export default function Home() {
       {/* Sticky Header */}
       <header className="sticky top-0 z-10 bg-white/90 dark:bg-gray-950/90 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-          <div className="flex-1">{/* Empty space for layout balance */}</div>
-          <nav className="flex-1 flex justify-center">
-            {/* Navigation links can be added here */}
+          <nav className="flex-1 flex justify-left">
+            <Button onClick={() => router.push('./docs')}>Docs</Button>
           </nav>
           <div className="flex-1 flex gap-2 justify-end">
             <ModeToggle />
@@ -48,6 +47,7 @@ export default function Home() {
               className="flex gap-2 lg:gap-4 justify-center xs:px-2"
             >
               <Image
+                priority={true}
                 alt="logo"
                 className="h-auto w-auto dark:invert"
                 width={100}
@@ -117,11 +117,6 @@ export default function Home() {
               //   className: 'dark:invert',
             },
             {
-              src: '/logos/pinedocs.png',
-              label: 'Pinexio',
-              className: 'dark:invert',
-            },
-            {
               src: '/logos/ts.png',
               label: 'Typescript',
             },
@@ -130,7 +125,7 @@ export default function Home() {
             //   label: 'blank',
             //   className: 'dark:invert',
             // },
-          ].map(({ src, label, className }) => (
+          ].map(({ src, label }) => (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -144,7 +139,6 @@ export default function Home() {
                   height={100}
                   src={src}
                   alt={`${label} Logo`}
-                  className={className}
                 />
               </div>
               <span className="mt-4 text-sm">{label}</span>
@@ -159,7 +153,7 @@ export default function Home() {
           <div className="flex justify-end items-center space-x-4">
             <div className="flex text-sm text-right gap-3">
               <p>
-                Built with ❤️ by <strong>Nathan Mah</strong>
+                Built by <strong>Nathan Mah</strong> with PineXIO and Vercel
               </p>
             </div>
           </div>
