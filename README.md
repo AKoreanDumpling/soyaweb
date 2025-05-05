@@ -1,1 +1,1 @@
-## The hOSe Project's website
+The website for The hOSe Project
