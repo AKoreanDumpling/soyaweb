@@ -312,4 +312,4 @@ Didn't like it? Have this laser-superman-dog instead!
 <br />
  Thanks for visiting! Come again soon!
 
--*Nathan* :)
+\- *Nathan* :)
