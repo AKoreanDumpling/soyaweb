@@ -28,3 +28,24 @@
 	--ifm-color-primary-lightest: #4fddbf; */
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+	font-family: "Dosis";
+	src: url("/static/fonts/Dosis-VariableFont_wght.ttf") format("woff2 supports variations"),
+		url("/static/fonts/Dosis-VariableFont_wght.ttf") format("woff2-variations");
+	font-weight: 200 900;
+	font-stretch: 75% 125%;
+}
+
+html {
+	font-family: "Dosis";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Dosis";
+}
