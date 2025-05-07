@@ -48,28 +48,36 @@ const config = {
 					// editUrl:
 					// 	"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 				},
-				blog: {
-					showReadingTime: true,
-					feedOptions: {
-						type: ["rss", "atom"],
-						xslt: true,
-					},
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					// editUrl:
-					// 	"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-					// Useful options to enforce blogging best practices
-					onInlineTags: "warn",
-					onInlineAuthors: "warn",
-					onUntruncatedBlogPosts: "warn",
-				},
+				// blog: {
+				// 	showReadingTime: true,
+				// 	feedOptions: {
+				// 		type: ["rss", "atom"],
+				// 		xslt: true,
+				// 	},
+				// 	// Please change this to your repo.
+				// 	// Remove this to remove the "edit this page" links.
+				// 	// editUrl:
+				// 	// 	"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+				// 	// Useful options to enforce blogging best practices
+				// 	onInlineTags: "warn",
+				// 	onInlineAuthors: "warn",
+				// 	onUntruncatedBlogPosts: "warn",
+				// },
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
 			}),
 		],
 	],
-
+	plugins: [
+		[
+			"vercel-analytics",
+			{
+				debug: true,
+				mode: "auto",
+			},
+		],
+	],
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -87,7 +95,7 @@ const config = {
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
 						position: "left",
-						label: "Tutorial",
+						label: "Documentation",
 					},
 					{ to: "/about", label: "About", position: "left" },
 					{
