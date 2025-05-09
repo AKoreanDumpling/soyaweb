@@ -79,43 +79,24 @@ const config = {
 				style: "dark",
 				links: [
 					{
-						title: "Site",
-						items: [
-							{
-								label: "Features",
-								to: "/docs/intro",
-							},
-						],
+						label: "Home",
+						to: "/",
 					},
 					{
-						title: "Community",
-						items: [
-							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
-							},
-							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-							{
-								label: "X",
-								href: "https://x.com/docusaurus",
-							},
-						],
+						label: "Github",
+						to: "https://github.com/akoreandumpling/hose",
 					},
 					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
-								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
-							},
-						],
+						label: "Stack Overflow",
+						to: "https://stackoverflow.com/users/30162710/akoreandumpling",
+					},
+					{
+						label: "Twitter",
+						to: "https://twitter.com/@akoreandumpling",
+					},
+					{
+						label: "About",
+						to: "/about",
 					},
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} Nathan Mah - The hOSe Project, Built with Docusaurus.`,
