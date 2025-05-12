@@ -23,7 +23,7 @@ hOSe will have a specially designed "One Focus" user interface. The simple point
 `;
 
 	const reactContent = useRemark({ markdown: text, rehypePlugins: [rehypeRaw, rehypeSanitize], remarkPlugins: [remarkGfm], remarkToRehypeOptions: { allowDangerousHtml: true } });
-	const { Text, speechStatus, start, pause, stop } = useSpeech({ text: reactContent, pitch: 1, rate: 1, volume: 1, lang: "en-CA", voiceURI: "Microsoft Richard - English (Canada)", autoPlay: true, highlightText: true, showOnlyHighlightedText: false, highlightMode: "word" });
+	const { Text, speechStatus, start, pause, stop } = useSpeech({ text: reactContent, pitch: 1, rate: 1, volume: 1, lang: "en-CA", voiceURI: "Microsoft Richard - English (Canada)", autoPlay: false, highlightText: true, showOnlyHighlightedText: false, highlightMode: "word" });
 
 	return (
 		<div style={{ margin: "1rem", whiteSpace: "pre-wrap" }}>
