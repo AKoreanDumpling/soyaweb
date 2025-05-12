@@ -69,7 +69,12 @@ const config = {
 					{ to: "/about", label: "About", position: "left" },
 					{
 						href: "https://github.com/akoreandumpling/hose",
-						label: "GitHub",
+						label: "Website on Github",
+						position: "right",
+					},
+					{
+						href: "https://github.com/akoreandumpling/hose-website",
+						label: "hOSe on GitHub",
 						position: "right",
 					},
 				],
