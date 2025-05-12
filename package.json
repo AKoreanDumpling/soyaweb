@@ -1,6 +1,6 @@
 {
 	"name": "hose-website",
-	"version": "0.58",
+	"version": "0.8",
 	"private": "false",
 	"scripts": {
 		"docusaurus": "docusaurus",
@@ -45,6 +45,6 @@
 		]
 	},
 	"engines": {
-		"node": ">=18.0"
+		"node": "^22.0"
 	}
 }
