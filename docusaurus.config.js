@@ -104,7 +104,7 @@ const config = {
 						to: "/about",
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} <a href="/about"> Nathan Mah </a> - The hOSe Project, Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} <a href="/easteregg" style="text-decoration:none"> Nathan Mah </a> - The hOSe Project, Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,
