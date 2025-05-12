@@ -1,13 +1,46 @@
 ---
 sidebar_position: 2
+title: Proposed Features
 ---
 
-# Proposed Features
+import { useState } from "react";
+import { useRemark } from "react-remarkify";
+import { useSpeech } from "react-text-to-speech";
+import rehypeRaw from "rehype-raw";
+import rehypeSanitize from "rehype-sanitize";
+import remarkGfm from "remark-gfm";
 
+
+
+export default function App() {
+	const text = `
 Below are the planned features that will be integrated into the final hOSe.
-
 ## "One Focus" Interface
-
+hOSe will have a specially designed "One Focus" user interface. The simple point and click interface is designed to help the user focus on just one task at a time, without confusing popups or distractions.
 ## Something else
 
 ## Another thingy
+`;
+
+	const reactContent = useRemark({ markdown: text, rehypePlugins: [rehypeRaw, rehypeSanitize], remarkPlugins: [remarkGfm], remarkToRehypeOptions: { allowDangerousHtml: true } });
+	const { Text, speechStatus, start, pause, stop } = useSpeech({ text: reactContent, pitch: 1, rate: 1, volume: 1, lang: "en-CA", voiceURI: "Microsoft Richard - English (Canada)", autoPlay: false, highlightText: true, showOnlyHighlightedText: false, highlightMode: "word" });
+
+	return (
+		<div style={{ margin: "1rem", whiteSpace: "pre-wrap" }}>
+			<div style={{ display: "flex", columnGap: "1rem", marginBottom: "1rem" }}>
+				<button disabled={speechStatus === "started"} onClick={start}>
+					Start
+				</button>
+				<button disabled={speechStatus === "paused"} onClick={pause}>
+					Pause
+				</button>
+				<button disabled={speechStatus === "stopped"} onClick={stop}>
+					Stop
+				</button>
+			</div>
+			<div className="prose prose-th:w-screen prose-th:max-w-full prose-th:border prose-td:border prose-th:p-2 prose-td:p-2 prose-ul:whitespace-normal prose-ol:whitespace-normal prose-headings:my-1 prose-pre:my-1 grid max-w-full grid-cols-1 whitespace-pre-wrap break-words *:my-0 *:w-full *:whitespace-pre-wrap">
+				<Text />
+			</div>
+		</div>
+	);
+}
