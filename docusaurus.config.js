@@ -89,7 +89,7 @@ const config = {
 					},
 					{
 						label: "Github",
-						to: "https://github.com/akoreandumpling/hose",
+						to: "https://github.com/akoreandumpling",
 					},
 					{
 						label: "Stack Overflow",
