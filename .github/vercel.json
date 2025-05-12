@@ -3,6 +3,6 @@
 }
 {
   "redirects": [
-    { "source": "/lava", "destination": "/about", "permanent": true }
+    { "source": "/lava", "destination": "/easteregg", "permanent": true }
   ]
 }
