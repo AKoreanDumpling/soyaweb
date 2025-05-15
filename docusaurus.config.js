@@ -74,7 +74,7 @@ const config = {
 					},
 					{
 						href: "https://github.com/akoreandumpling/hose-website",
-						label: "hOSe on GitHub",
+						label: "Project on GitHub",
 						position: "right",
 					},
 				],
