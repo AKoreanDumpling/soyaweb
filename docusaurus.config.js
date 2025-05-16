@@ -69,7 +69,12 @@ const config = {
 					{ to: "/about", label: "About", position: "left" },
 					{
 						href: "https://github.com/akoreandumpling/hose",
-						label: "GitHub",
+						label: "Website on Github",
+						position: "right",
+					},
+					{
+						href: "https://github.com/akoreandumpling/hose-website",
+						label: "Project on GitHub",
 						position: "right",
 					},
 				],
@@ -84,7 +89,7 @@ const config = {
 					},
 					{
 						label: "Github",
-						to: "https://github.com/akoreandumpling/hose",
+						to: "https://github.com/akoreandumpling",
 					},
 					{
 						label: "Stack Overflow",
@@ -99,7 +104,7 @@ const config = {
 						to: "/about",
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Nathan Mah - The hOSe Project, Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} <a href="/easteregg" style="text-decoration:none, color: inherit"> Nathan Mah </a> - The hOSe Project, Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,

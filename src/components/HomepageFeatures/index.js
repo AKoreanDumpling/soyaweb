@@ -15,22 +15,20 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Focus on What Matters",
+		title: "Fast and Reliable",
 		// Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
 		description: (
 			<>
-				Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-				ahead and move your docs into the <code>docs</code> directory.
+				hOSe will built on top of a Linux Mint (MATE) base, making it super stable, fast, and resource-efficient, even on older machines.
 			</>
 		),
 	},
 	{
-		title: "Powered by React",
+		title: "Simple Setup",
 		// Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can
-				be extended while reusing the same header and footer.
+				With a straightforward and easy to understand setup experience, hOSe can be tailored specially for the personal apps each user needs.
 			</>
 		),
 	},
